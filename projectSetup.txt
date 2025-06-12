@@ -1,5 +1,5 @@
 1. Create git repo and clone it in local.
-2. Create mycode.py and add code to it. (it will save a csv file to a new "data" folder)
+2. Create a python file and add code to it. (it will save a csv file to a new "data" folder)
 3. Do a git add-commit-push before initializing dvc.
 # pip install dvc
 4. Now we do "dvc init" (creates .dvcignore, .dvc)
@@ -17,9 +17,11 @@
 13. Check dvc/git status, everything should be upto date.
 14. Now repeat step 10-12 for v3 of data.
 
+This is to check the Working of dvc.
 
-git checkout <SHAH_ID>
+15. checkout to previous version  ---> git checkout <SHAH_ID>
 
-dvc status
-dvc pull
+16. Then check the status of the dvc ----> dvc status
+17. Then pull the changes for that version you have checkedout to ----> dvc pull
+
 
